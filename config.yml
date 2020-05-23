@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/elancier/public_html/git
+    - /bin/cp * $DEPLOYPATH
